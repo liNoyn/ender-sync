@@ -92,6 +92,19 @@ cd endersync_vps && npm test          # 保存・消費・上書き拒否など�
 cd behavior_packs/endersync_bp && npm run check
 ```
 
+## Credits
+
+このプロジェクトは **rometet** さんの [inventory-sync](https://github.com/rometet/inventory-sync) を参考に作っています。Behavior Pack + Node.js API という全体の設計と、次のファイルの元になっているコードは rometet さんのものです(各ファイルの先頭にも出典を書いています)。
+
+- `behavior_packs/endersync_bp/scripts/inventory/itemSerializer.ts`
+- `behavior_packs/endersync_bp/scripts/inventory/itemDeserializer.ts`
+- `behavior_packs/endersync_bp/scripts/net/apiClient.ts`
+- `behavior_packs/endersync_bp/scripts/util/chat.ts`
+- `behavior_packs/endersync_bp/scripts/util/logger.ts`
+- `behavior_packs/endersync_bp/scripts/domain/playerIdentity.ts`
+
+元リポジトリにライセンスの記載はありません。元作者への事前確認は取れていないため、問題があれば issue などでお知らせください。対応します。
+
 ## 制限
 
 - プレイヤーの識別は `player.name`(小文字化)です。改名すると別人扱いになります。

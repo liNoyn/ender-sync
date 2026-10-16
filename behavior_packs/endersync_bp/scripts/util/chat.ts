@@ -1,3 +1,6 @@
+// Derived from rometet/inventory-sync (https://github.com/rometet/inventory-sync) by rometet.
+// Adapted for Ender Sync; see the Credits section of the root README.
+
 import { Player } from "@minecraft/server";
 
 const PREFIX = "\u00A76[EnderSync]\u00A7r";
