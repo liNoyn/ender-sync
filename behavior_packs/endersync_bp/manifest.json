@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "EnderSync BP",
+    "description": "Ender Chest sync for Minecraft Bedrock Dedicated Server.",
+    "uuid": "5f0c6a52-6a3e-4c8e-9a43-0d1f6c2b7e11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 130]
+  },
+  "modules": [
+    {
+      "description": "Ender Chest sync script entrypoint.",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b3a9d7c4-2e51-4f6a-8c0d-7e4a19f5b2d8",
+      "version": [1, 0, 0],
+      "entry": "dist/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "beta"
+    }
+  ]
+}
