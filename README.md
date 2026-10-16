@@ -103,8 +103,6 @@ cd behavior_packs/endersync_bp && npm run check
 - `behavior_packs/endersync_bp/scripts/util/logger.ts`
 - `behavior_packs/endersync_bp/scripts/domain/playerIdentity.ts`
 
-元リポジトリにライセンスの記載はありません。元作者への事前確認は取れていないため、問題があれば issue などでお知らせください。対応します。
-
 ## 制限
 
 - プレイヤーの識別は `player.name`(小文字化)です。改名すると別人扱いになります。
