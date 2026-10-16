@@ -2,7 +2,7 @@
 
 Minecraft Bedrock Dedicated Server (BDS) 向けの、エンダーチェスト共有システムです。複数のサーバー(ワールド)間で、プレイヤーのエンダーチェストを持ち運べます。
 
-[rometet/inventory-sync](https://github.com/rometet/inventory-sync) の仕組み(Behavior Pack + Node.js API、保存したらclear、読み込みは1回だけ)を参考にしています。元リポジトリにはライセンスの記載がなく、作者への確認は取れていません。ただし通常のインベントリ同期・DB方式・XP共有などの機能は含みません。
+[rometet/inventory-sync](https://github.com/rometet/inventory-sync) の仕組み(Behavior Pack + Node.js API、保存したらclear、読み込みは1回だけ)を参考にしています。ただし通常のインベントリ同期・DB方式・XP共有などの機能は含みません。
 
 ## 構成
 
