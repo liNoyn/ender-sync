@@ -1,0 +1,19 @@
+{
+  "name": "endersync-vps",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.json && node --test dist/store.test.js",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "25.5.2",
+    "typescript": "6.0.2"
+  }
+}
